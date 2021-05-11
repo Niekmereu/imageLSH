@@ -65,6 +65,8 @@ class ImageFinder:
 
         
     def find_similar_img(self, file: str, threshold: float) -> List:
+        # returns list of tuples, file followed by similarity.
+        
         self.image_signature = self._create_signature(file)
         
         # first lsh to find candidate pairs (hashed to same bucket)
