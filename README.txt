@@ -22,3 +22,6 @@ Signatures should be stored as binary. If we pick a signature size of 250, we ca
 If the number of images grows even larger, signatures could be kept out of working memory. The only thing strictly required in memory is the hash table.
 
 Model could also be easily implemented in spark using map-reduce.
+
+4. Further details
+Let's discuss during interview.
