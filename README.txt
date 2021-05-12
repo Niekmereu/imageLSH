@@ -2,6 +2,9 @@ python version 3.6
 
 LSH implementation to find similar images.
 
+to run:
+ run ImageFinderLSH.py
+
 1. Parameters
  n_bands: number of bands
  hash_size: nr of bytes (booleans) for the representation of one image.
